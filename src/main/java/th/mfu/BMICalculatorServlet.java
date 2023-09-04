@@ -32,7 +32,7 @@ public class BMICalculatorServlet extends HttpServlet{
             built ="extremely obese";
        }
         //TODO: add bmi and built to the request's attribute
-         request.setAttribute("result",BMI);
+         request.setAttribute("result",Math.round(BMI));
         request.setAttribute("built", built);
         //TODO: forward to jsp
         request.getRequestDispatcher("/bmi_result.jsp").forward(request, response);

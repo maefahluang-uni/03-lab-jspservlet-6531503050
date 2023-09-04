@@ -28,7 +28,7 @@ You may study `testCaclulate1` as a sample. This test case should make a connect
 - jetty server must be started before integration testing starts (please look at `pom.xml` line:107-170)
 
 What benefit do we have from having integration tests in our project?
-```
+```Help us fixing coding problems.
 Your though here
 ```
 
